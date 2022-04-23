@@ -1,0 +1,355 @@
+body{
+	padding:0;
+	margin:0;
+	scroll-behavior: smooth;
+}
+html{
+	
+	scroll-behavior:smooth;
+}
+.section{
+	width: 100%;
+	float: left;
+}
+*{
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/** Header **/
+
+.logo{
+	float: left;
+	padding-top:17px;
+	padding-right:80px;
+	
+}
+.nav{
+	float: center;
+	padding:28px 0;
+	
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+	
+}
+.nav ul li{
+	margin: 0;
+	padding: 15px 30px;
+	display: inline-block;
+	text-decoration:none;
+	
+	
+}
+.nav ul li a{
+	color: black;
+	font-weight: 500px;
+	text-align: left;
+	font-size: 18px;
+	text-decoration:none;
+
+}
+.nav .active {
+	color:#3C83CB;
+	border-bottom: 2px solid #3C83CB;
+}
+
+.nav .btn-header {
+	text-align: center;
+	background: white;
+	width: 90px;
+	height: 40px;
+	color: #3C83CB;
+	border: 1px solid #3C83CB;
+	padding:9px 12px;
+}
+.icon {
+	float:right;
+	padding-top:35px;
+	
+	
+}
+.icon a{
+	padding-left:20px;
+}
+
+/** Banner **/
+
+.banner{
+	background: url(../Image/sec1.png) no-repeat center top;
+}
+.banner h2{
+	padding-top:425px;
+	color:white;
+	font-size:32px;
+	text-align:center;
+}
+.banner img{
+	padding-bottom:12px;
+	margin:0 auto;
+	display:block;
+}
+/** 3 colour Line **/
+.line{
+	width:33.33%;
+	height:6px;
+	float:left;
+	padding:0;
+	margin:0;
+}
+.col-red{
+	background-color:red;
+}
+.col-green{
+	background-color:green;
+}
+.col-blue{
+	background-color:blue;
+}
+
+/** Digital Part **/
+
+.digital h1{
+	font-size:50px;
+	padding-top:30px;
+}
+.digital .size {
+	font-size:30px;
+	color:#3C83CB;
+	float:right;
+	margin:0;
+	padding-right:300px;
+}
+.digital p{
+	font-size:20px;
+	float:right;
+	padding-right:300px;
+	padding-bottom:50px;
+}
+
+/** Name **/
+
+.product{
+	background-color:#3C83CB;
+}
+.product .title{
+	font-size:40px;
+	color:white;
+	text-align:center;
+}
+
+.product .box{
+	text-align:center;
+	float:left;
+	display:flex;
+	
+	
+}
+
+.inner{
+	background:white;
+	margin: 31px 31px;
+	width:50%;
+	padding:50px;
+	
+}
+.in1{
+	width:50%;
+	float:left;
+	text-align:left;
+	padding-left:8px;
+}
+.in1 img{
+	width:100%;
+}
+.in1 p{
+	font-size:12px;
+	padding:5px;
+}
+.in1 a{
+	text-align:center;
+	background-color:blue;
+	color:white;
+	font-size:10px;
+	padding:10px;
+	text-decoration:none;
+	width:140px;
+	height:40px;
+}
+.in1 h3{
+	font-size:25px;
+	padding-top:0;
+}
+
+/**Jumbo**/
+.jumbo{
+	display:flex;
+	background: transparent linear-gradient(182deg, #FFFFFF 0%, #EBF7FE 100%) 0% 0% no-repeat padding-box;
+}
+.rghtjumbo{
+	float:right;
+}
+.rightjumbo h1{
+	text-align:center;
+	font-size:40px;
+}
+.rightjumbo p{
+	text-align:left;
+	padding-left:200px;
+	padding-right:200px;
+	font-size:18px;
+}
+.rightjumbo .mainlist{
+	display:flex;
+}
+.rightjumbo .mainlist ul{
+	padding-top:100px;
+	padding-right:100px;
+	padding-left:100px;
+	padding-bottom:0px;
+	list-style-type: none;
+}
+.rightjumbo .mainlist ul li{
+	padding:15px;
+	text-decoration:none;
+	font-size:19px;
+}
+.rightjumbo .mainlist ul li a{
+	text-decoration:none;
+}
+.rightjumbo .mainlist .listactive{
+	color:blue;
+	border-bottom: 2px solid #3C83CB;
+}
+
+/** Company **/
+
+.company h1{
+	font-size:30px;
+	text-align:center;
+}
+.company .mainlog{
+	display:flex;
+	
+}
+.company .mainlog .logos{
+	padding-right:34px;
+	padding-left:34px;
+}
+/** Form**/
+.form{
+	background-color:#3C83CB;
+}
+.form h1{
+	font-size:30px;
+	color:white;
+}
+.form .upper input{
+	width:70%;
+	margin-right:20px;
+	margin-bottom:15px;
+}
+.form .upper a{
+	padding-left:15px;
+	padding-right:15px;
+	width:200px;
+	color:black;
+	background-color:white;
+	height:100px;
+	text-align:center;
+	text-decoration:none;
+	
+	
+}
+.form .check input{
+	height:15px;
+	width:15px;
+	margin-bottom:50px;
+}
+.form .check span{
+	color:white;
+}
+
+/**footer**/
+ .fotter{
+ 	background-color: black;
+	padding-top:25px;
+
+ }
+ .fobox{
+ float: left;
+	width: 25%;
+	padding: 0 ;
+	margin:  0;
+	color: white;
+	text-align: left;
+	text-decoration:none;
+	padding-bottom:20px;
+}
+.fobox ul{
+	margin: 0;
+	padding: 10px;
+	list-style-type: none;
+	text-decoration:none;
+	
+}
+.fobox ul li{
+	padding: 10px;
+	font-size: 14px;
+	color: white;
+	text-decoration:none;
+}
+.fobox  h4{
+	padding-top:10px;
+	color: white;
+	font-size:30px;
+	margin:0;
+}
+.fobox a{
+	color: white;
+	text-decoration:none;
+}
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	color: #ffffff;
+	justify-content: center;
+	align-items: center;
+}
+.line hr{
+	color: grey;
+	width:300%;
+
+
+}
+
+.lastpart{
+	display:flex;
+	
+	
+}
+.fobox-bot{
+	width: 50%;
+	float: left;
+	display:inline-block;
+}
+.fobox-bot p{
+	font-size: 14px;
+	padding-top:5px;
+	color: grey;
+	text-align:left;
+}
+.bot-l p{
+	text-align: left;
+}
+.bot-r{
+	text-align: right;
+}
